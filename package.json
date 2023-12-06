@@ -4,8 +4,6 @@
   "description": "Open Source Module to Upload your Media and files into AWS S3 Bucket directly from Front-end React.",
   "author": "Amit Mishra",
   "main": "dist/react-aws-s3.js",
-  "module": "dist/react-aws-s3.m.js",
-  "source": "src/react-aws-s3.ts",
   "umd:main": "dist/react-aws-s3.umd.js",
   "unpkg": "dist/react-aws-s3.js",
   "scripts": {
