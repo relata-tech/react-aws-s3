@@ -1,9 +1,11 @@
 {
-  "name": "react-aws-s3",
-  "version": "1.5.0",
+  "name": "relata-react-aws-s3",
+  "version": "1.5.1",
   "description": "Open Source Module to Upload your Media and files into AWS S3 Bucket directly from Front-end React.",
   "author": "Amit Mishra",
   "main": "dist/react-aws-s3.js",
+  "module": "dist/react-aws-s3.m.js",
+  "source": "src/react-aws-s3.ts",  
   "umd:main": "dist/react-aws-s3.umd.js",
   "unpkg": "dist/react-aws-s3.js",
   "scripts": {
@@ -14,9 +16,7 @@
     "prepublish": "npm run clean && npm run build"
   },
   "files": [
-    "cjs",
-    "esm",
-    "umd"
+    "dist/"
   ],
   "keywords": [
     "react-component",
